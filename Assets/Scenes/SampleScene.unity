@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 1528210464}
   - component: {fileID: 1528210466}
   - component: {fileID: 1528210467}
+  - component: {fileID: 1528210468}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -547,6 +548,27 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1528210468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528210461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ab577a00f34d14a905015fd7610346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabList:
+  - {fileID: 2512729574431183245, guid: 27024c0133b469b4299dc6ef5870107b, type: 3}
+  - {fileID: 2512729574431183245, guid: bef18e9ab1d39c94a80ac81017fcb9f5, type: 3}
+  spawnRadius: 10.47
+  spawnInterval: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  spawnPointCheckRadius: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
